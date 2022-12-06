@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top:200px;
+    flex-direction: column;
+    
+}
+.m_div{
+    height: 515px;
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+    position: relative;
+}
+.column_div{
+    height: 100%;
+    width: 25%;
+    border: 2px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.child_div{
+    height:25%;
+    width:100%;
+    border: 2px solid blue;
+}
+
+
+.enter{
+    background-color: aqua;
+}
+
+.exit{
+    background-color:white;
+}
